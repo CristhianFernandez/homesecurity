@@ -14,6 +14,9 @@ end="${body} ${url}${d}\" }"
 curl --header "Content-Type: application/json" \
   --request POST \
  --data "$end" \
-  http://192.168.1.127:8080/criminal/index
+  http://192.168.1.127:8080/people/index
 
-curl http://192.168.1.127:8080/face/verify
+curl --header "Content-Type: application/json" \
+  --request POST \
+ --data "$end" \
+   http://192.168.1.127:8080/face/verify
