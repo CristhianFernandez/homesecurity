@@ -3,7 +3,7 @@ d=$(date +%Y-%m-%d-%hh-%mm-%ss).png
 raspistill -o /home/pi/homesecurity/images/$d -w 500 -h 500
 
 git add .
-git commit -m "Identified person"
+git commit -m "Identified criminal"
 git push
 
 url='"https://raw.githubusercontent.com/CristhianFernandez/homesecurity/master/images/'
