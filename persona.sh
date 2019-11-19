@@ -15,8 +15,3 @@ curl --header "Content-Type: application/json" \
   --request POST \
  --data "$end" \
   http://goldenseed.ml:8080/people/index
-
-curl --header "Content-Type: application/json" \
-  --request POST \
- --data "$end" \
-   http://goldenseed.ml:8080/face/verify
