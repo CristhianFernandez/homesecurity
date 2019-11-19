@@ -14,9 +14,9 @@ end="${body} ${url}${d}\" }"
 curl --header "Content-Type: application/json" \
   --request POST \
  --data "$end" \
-  http://192.168.43.5:8080/people/index
+  http://goldenseed.ml:8080/people/index
 
 curl --header "Content-Type: application/json" \
   --request POST \
  --data "$end" \
-   http://192.168.43.5:8080/face/verify
+   http://goldenseed.ml:8080/face/verify
